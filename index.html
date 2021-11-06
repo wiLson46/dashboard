@@ -30,43 +30,42 @@
         </div>
     </nav>
 
-    <div class="container d-flex flex-wrap justify-content-center p-3 col-sm-12 col-lg-6">
+    <div class="container d-flex flex-wrap justify-content-center p-3 col-12">
 
-        <a href="https://wilson46.github.io/LED-vacunas/" target=”_blank”>
-            <div class="m-4">
+        <div class="m-4">
+            <a href="https://wilson46.github.io/LED-vacunas/">
                 <div class="carta bg-primary d-flex justify-content-center align-items-center">
                     <i class="fas fa-syringe px-1 text-white"></i>
                 </div>
-                <span class="p-4 fs-6 fw-bold d-flex justify-content-center text-uppercase">vacunatorio</span>
-            </div>
-        </a>
+            </a>
+            <span class="p-4 fs-6 fw-bold d-flex justify-content-center text-uppercase">vacunatorio<i
+                    class="infoi px-1 fas fa-info-circle" data-bs-toggle="modal"
+                    data-bs-target="#staticBackdropModal1"></i></span>
+        </div>
 
-        <a href="https://wilson46.github.io/calculointereses/" target=”_blank”>
-            <div class="m-4">
+
+        <div class="m-4">
+            <a href="https://wilson46.github.io/calculointereses/">
                 <div class="carta bg-primary d-flex justify-content-center align-items-center">
                     <i class="fas fa-dollar-sign px-1 text-white"></i>
                 </div>
-                <span class="p-4 fs-6 fw-bold d-flex justify-content-center text-uppercase">intereses</span>
-            </div>
-        </a>
+            </a>
+            <span class="p-4 fs-6 fw-bold d-flex justify-content-center text-uppercase">calculos<i
+                    class="infoi px-1 fas fa-info-circle" data-bs-toggle="modal"
+                    data-bs-target="#staticBackdropModal2"></i></span>
+        </div>
 
-        <a href="" target=”_blank”>
-            <div class="m-4">
-                <div class="carta bg-primary d-flex justify-content-center align-items-center">
-                    <i class="fas fa-hand-holding-usd px-1 text-white"></i>
-                </div>
-                <span class="p-4 fs-6 fw-bold d-flex justify-content-center text-uppercase">propina</span>
-            </div>
-        </a>
 
-        <a href="https://wilson46.github.io/ACA/" target=”_blank”>
-            <div class="m-4">
+        <div class="m-4">
+            <a href="https://wilson46.github.io/ACA/" target=”_blank”>
                 <div class="carta bg-primary d-flex justify-content-center align-items-center">
                     <i class="fas fa-road px-1 text-white"></i>
                 </div>
-                <span class="p-4 fs-6 fw-bold d-flex justify-content-center text-uppercase">rutas aca</span>
-            </div>
-        </a>
+            </a>
+            <span class="p-4 fs-6 fw-bold d-flex justify-content-center text-uppercase">rutas aca<i
+                    class="infoi px-1 fas fa-info-circle" data-bs-toggle="modal"
+                    data-bs-target="#staticBackdropModal3"></i></span>
+        </div>
     </div>
 
     <footer class="footer mt-auto">
@@ -74,6 +73,66 @@
             2021 © Wilson Eric Sola - DS 1ro 1ra
         </div>
     </footer>
+
+    <div class="modal fade" id="staticBackdropModal1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">TP Vacunatorio</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+
+                    Programa donde se debe ingresar una edad y un dni. <br>
+                    La edad determina que vacuna debe recibir. <br>
+                    El DNI se guarda en un array y luego se puede consultar una lista de todos los DNI ingresados. <br>
+                    Mas info dentro del proyecto en el info icon.
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="staticBackdropModal2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Calculos</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+
+                    Interes compuesto: <br>
+                    Se ingresa un monto mensual que se va a ahorrar, el interes que se va a obtener y la cantidad de tiempo que se va a ahorrar <br>
+                    El sistema mostrara el total ahorrado sin ganancia, solo la ganancia y el total con ganancia incluida. <br>
+                    Propina: <br>
+                    Se ingresa el monto gastado y que porcentaje se quiere dejar de propina. <br>
+                    El sistema mostrara de cuanto es la propina y el total sumando la propina.
+
+                </div>
+
+            </div>
+        </div>a
+    </div>
+
+    <div class="modal fade" id="staticBackdropModal3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">TP ACA</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+
+                    <a href="Manual ACA.pdf" target="_blank" class="btn btn-primary text-white" role="button">Consigna</a>
+                    <a href="TPaca.pdf" target="_blank" class="btn btn-primary text-white" role="button">Documentación</a>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
 
 </body>
 

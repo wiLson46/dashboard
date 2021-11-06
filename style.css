@@ -15,7 +15,9 @@
     transform: scale(1.2);
 }
 
-
+.infoi {
+    cursor: pointer;
+}
 
 /* estilo de links*/
 
